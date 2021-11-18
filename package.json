@@ -1,17 +1,21 @@
 {
-  "name": "wsServer",
+  "name": "0001-nodejs-load-video",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
     "express": "^4.17.1",
-    "ws": "^8.0.0"
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
